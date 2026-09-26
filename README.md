@@ -24,7 +24,7 @@ and claims analytics over 1M+ insurance records. I now analyse store sales and l
 Tahir Group, and my MSc in Data Science (76%) added LLM, RAG and NLP systems built end to end.
 
 - **Working on:** store performance analytics and difference-in-differences evaluation of operational changes
-- **Building:** an LLM-ranked job-search system with a Chrome extension (case study below)
+- **Building:** a multi-LLM job-search agent with a Chrome extension ([case study](https://manojram7.github.io/RamMopatisPortfolio/job-search-agent.html))
 - **Ask me about:** marketing mix modelling, pricing and promotion analytics, MLOps on Azure
 
 ## Experience
@@ -40,17 +40,20 @@ Tahir Group, and my MSc in Data Science (76%) added LLM, RAG and NLP systems bui
 
 | Project | What it does | Stack | Links |
 |---|---|---|---|
-| **AI Job-Search & Application Copilot** | Collects 2,000+ live roles a day from 9 ATS APIs and job boards, ranks them against my CV with a three-model LLM cascade, and fills applications through a Chrome extension | Python · TypeScript · Supabase · Next.js | [Case study](https://manojram7.github.io/RamMopatisPortfolio/ai-career-copilot.html) |
+| **Multi-LLM GenAI Job-Search Agent** | Collects 2,000+ live roles a day from 9 ATS APIs and job boards, ranks them against my CV with a three-model LLM cascade, and assists with applications through a Chrome extension | Python · TypeScript · Supabase · Next.js | [Case study](https://manojram7.github.io/RamMopatisPortfolio/job-search-agent.html) |
 | **Consumer Review Intelligence** | MSc dissertation: sentiment classification of 10,000 Amazon Books reviews with SVM, Naive Bayes and Random Forest on BoW and TF-IDF, plus rating-text contradiction analysis | scikit-learn · NLTK · VADER | [Code](https://github.com/ManojRam7/Consumer_Review_Intelligence) |
-| **RAG Document Analytics Assistant** | Question answering over business reports with page-level citations and automated answer evaluation | LangChain · FAISS · Gemini · Streamlit | [Code](https://github.com/ManojRam7/RAG_Analytics_Assistant) |
-| **Health Insurance ML Pipeline** | Medallion-architecture platform with churn, fraud and high-cost-claim models, MLflow tracking, batch scoring and CI/CD | PySpark · Delta Lake · MLflow · Docker | [Code](https://github.com/ManojRam7/health_insurance_project) |
-| **Revenue Management & MMM** | Log-log elasticity models for 70 market-product groups, baseline decomposition, a guardrail-constrained promo optimiser and an elastic-net marketing mix model | Python · PySpark · R · OR-Tools | [Code](https://github.com/ManojRam7/SRM_TPO_Portfolio_Project) |
-| **RFM Debt-Recovery Analytics** | SQL-engineered RFM features, risk tiers and a recovery playbook, reported in Streamlit | SQL · Python · Streamlit | [Code](https://github.com/ManojRam7/RFM_DebtRecovery_Analytics) |
-| **Customer Churn Prediction** | Random forest churn model served through FastAPI with a web form, packaged in Docker | scikit-learn · FastAPI · Docker · Azure | [Live](https://telecomchurnazurewebapp-bjb4f4drcqewc5e2.canadacentral-01.azurewebsites.net) · [Code](https://github.com/ManojRam7/CustomerChurn_Prediction) |
-| **Potato Leaf Disease Classifier** | CNN with 95% test accuracy on 2,152 leaf images, served through Streamlit, FastAPI and a CLI | TensorFlow · FastAPI · Streamlit | [Live](https://potatodisease-classifier-app.streamlit.app) · [Code](https://github.com/ManojRam7/PotatoDisease_Classifier) |
-| **House Price Predictor** | Random forest regression with interaction features (R² 0.87 on hold-out) and a Streamlit app | scikit-learn · Streamlit | [Live](https://boston-houseprice-predictor.streamlit.app) · [Code](https://github.com/ManojRam7/BostonHousePrice_Predictor) |
+| **RAG Analytics Agent** | Question answering over business reports with page-level citations and automated answer evaluation | LangChain · FAISS · Gemini · Streamlit | [Code](https://github.com/ManojRam7/RAG_Analytics_Agent) |
+| **Health Insurance Analytics Platform** | Medallion-architecture platform with churn, fraud and high-cost-claim models, MLflow tracking, batch scoring and CI/CD | PySpark · Delta Lake · MLflow · Docker | [Code](https://github.com/ManojRam7/health_insurance_Analytics_Platform) |
+| **Strategic Revenue Management & Trade Promotion Optimisation** | Log-log elasticity models for 70 market-product groups, baseline decomposition, a guardrail-constrained promo optimiser and an elastic-net marketing mix model | Python · PySpark · R · OR-Tools | [Code](https://github.com/ManojRam7/SRM_TPO_Portfolio_Analytics) |
+| **RFM Debt-Recovery Platform** | SQL-engineered RFM features, risk tiers, a recovery playbook and an impact simulation, reported in Streamlit | SQL · Python · Streamlit | [Code](https://github.com/ManojRam7/RFM_Debt_Recovery_Platform) |
+| **Customer Churn Analytics** | Random forest churn classifier served through FastAPI with a web form and REST endpoint, containerised with Docker | scikit-learn · FastAPI · Docker · Azure | [Live](https://telecomchurnazurewebapp-bjb4f4drcqewc5e2.canadacentral-01.azurewebsites.net) · [Code](https://github.com/ManojRam7/Customer_Churn_Analytics) |
+| **Potato Disease Analyser** | CNN with 95% test accuracy on 2,152 leaf images, served through Streamlit, FastAPI and a CLI | TensorFlow · FastAPI · Streamlit | [Live](https://potatodisease-classifier-app.streamlit.app) · [Code](https://github.com/ManojRam7/Potato_Disease_Analyser) |
+| **House Pricing Analyser** | Random forest regression with interaction features (R² 0.87 on hold-out) and a Streamlit app | scikit-learn · Streamlit | [Live](https://boston-houseprice-predictor.streamlit.app) · [Code](https://github.com/ManojRam7/House_Pricing_Analyser) |
 
-More projects, including loan approval, breast cancer and gemstone pricing apps, are on my
+More projects, including the [Loan Approval Analyser](https://github.com/ManojRam7/Loan_Approval_Analyser),
+[Breast Cancer Analyser](https://github.com/ManojRam7/Breast_Cancer_Analyser),
+[Gemstone Price Analyser](https://github.com/ManojRam7/Gem_Stones_Price_Analyser) and
+[Student Performance Analyser](https://github.com/ManojRam7/Students_Performance_Analyser), are on my
 [portfolio](https://manojram7.github.io/RamMopatisPortfolio/projects.html).
 
 ## Tech stack
